@@ -5,6 +5,6 @@ public class Boss : Hero
 {
 	private void Update()
 	{
-		UpdateSpecial(Time.smoothDeltaTime/10f);
+		UpdateSpecial(Time.smoothDeltaTime/50f);
 	}
 }
